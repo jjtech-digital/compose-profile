@@ -1,0 +1,65 @@
+.accordion-inner {
+    margin-top: 40px;
+    @include max-screen(1199) {
+        margin-top: 0;
+    }
+    .card {
+        border: none;
+        border-radius: 15px;
+        background-color: #f7faff;
+        margin-bottom: 10px;
+        
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .card-header {
+        padding: 0;
+        border: none;
+        background-color: #f7faff;
+        border-radius: 15px;
+        .accordion-button {
+            color: #fc7418;
+            display: flex;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.5;
+            padding: 20px 40px;
+            text-align: left;
+            border: none;
+            border-radius: 15px;
+            background-color: #f7faff;
+            box-shadow: none;
+            //res
+            @media #{$small-mobile}{
+                padding: 20px 20px; 
+            }
+            &:hover,
+            &:active {
+                border: none;
+                background-color: transparent;
+            }
+            &:focus {
+                box-shadow: none;
+                border: none;
+            }
+            &:active:focus {
+                box-shadow: none;
+            }
+            &:active {
+                color: #02126a;
+            }
+            &.collapsed {
+                color: #02126a;
+                background-color: #f7faff;
+            }
+        }
+    }
+    .accordion-body {
+        color: #767988;
+        font-size: 15px;
+        line-height: 1.8;
+        padding: 0 40px 20px;
+    }
+}
+    
