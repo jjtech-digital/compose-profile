@@ -17,7 +17,7 @@ export default defineNuxtConfig({
     },
     app: {
         head: {
-            title: "Pringo"
+            title: "Compose Tech"
         }
     }
 })

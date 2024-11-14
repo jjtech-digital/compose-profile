@@ -22,15 +22,8 @@
             ServiceOne: () => import('@/components/ServiceOne'),
             WorkingProcess: () => import('@/components/WorkingProcess'),
             AboutOne: () => import('@/components/AboutOne'),
-            CaseStudies: () => import('@/components/CaseStudies'),
-            TeamSection: () => import('@/components/TeamSection'),
-            FaqSection: () => import('@/components/FaqSection'),
-            TestimonialOne: () => import('@/components/TestimonialOne'),
-            BlogOne: () => import('@/components/BlogOne'),
             ContactWrapper: () => import('@/components/ContactWrapper'),
             Footer: () => import('@/components/Footer')
         }
     }
 </script>
-
-

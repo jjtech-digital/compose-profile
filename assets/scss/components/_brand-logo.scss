@@ -15,6 +15,28 @@
     }
 }
 
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    p {
+        font-weight: 700;
+        // line-height: 2.833;
+        margin-bottom: 0;
+        font-size: 30px;
+        transition: all 0.3s;
+
+        @include max-screen(992, 1199) {
+            font-size: 25px;
+        }
+
+        @include max-screen(991) {
+            font-size: 20px;
+        }
+    }
+}
+
 .brand-card {
     background-color: $primary;
     background-image: url("/images/brand-logo/bg.png");

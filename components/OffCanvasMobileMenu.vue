@@ -5,7 +5,10 @@
             <div class="mobile-header">
                 <div class="logo">
                     <nuxt-link to="/">
-                        <img src="/images/logo/logo-white.png" alt="brand logo">
+                        <div class="logo-wrapper">
+                                <img src="/images/logo/ct_logom.png" alt="brand logo" height="44" />
+                                <p>Compose Tech</p>
+                            </div>
                     </nuxt-link>
                 </div>
                 <button class="mobile-close-btn" @click="mobiletoggleClass('removeClass', 'show-mobile-menu')"></button>

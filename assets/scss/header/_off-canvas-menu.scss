@@ -49,11 +49,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: $primary;
+            border-bottom: 1px solid gainsboro;
             padding: 10px 15px 10px 30px;
-            .logo {
-                width: 140px;
-            }
             .mobile-close-btn {
                 cursor: pointer;
                 border: none;
@@ -71,7 +68,7 @@
                     content: "";
                     width: 24px;
                     height: 3px;
-                    background: $white;
+                    background: black;
                     transform-origin: 50% 50%;
                     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
                 }

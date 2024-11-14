@@ -45,31 +45,6 @@
         </svg>
         <div class="footer-top position-relative">
             <div class="container">
-                <!-- Newsletter start -->
-                <div class="row">
-                    <div class="col-12" data-aos="fade-up" data-aos-delay="100">
-                        <div class="section-title process text-center pb-100">
-                            <div class="icon">
-                                <img src="/images/icon/launcher.png" alt="Icon_not_found" />
-                            </div>
-                            <h3 class="title">Subscribe To Our Newsletter</h3>
-                            <span class="hr-secondary"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12" data-aos="fade-up" data-aos-delay="300">
-                        <div class="news-letter pb-100">
-                            <form class="news-letter-form position-relative">
-                                <input id="mc-email" class="form-control" type="text" placeholder="Enter Your Email Address" />
-                                <button class="btn btn-warning">
-                                    Subscribe Now 
-                                    <i class="icofont-rounded-double-right"></i>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
                 <!-- Newsletter end -->
                 <div class="row">
                     <div class="col-12" data-aos="fade-up" data-aos-delay="600">
@@ -78,7 +53,10 @@
                                 <div class="footer-col">
                                     <div class="footer-widget">
                                         <nuxt-link to="/" class="footer-logo">
-                                            <img src="/images/logo/logo-white.png" alt="Brand Logo" />
+                                            <div class="logo-wrapper-f">
+                                                <img src="/images/logo/ct_logom.png" height="44" alt="Brand Logo" />
+                                                <p>Compose Tech</p>
+                                            </div>
                                         </nuxt-link>
                                         <ul class="address">
                                             <li>
@@ -210,8 +188,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <p>&copy;<span id="currentYear"></span> Made With <i class="icofont-heart"></i> By <a href="#">
-                            HasThemes</a> All Rights Reserved
+                        <p>&copy;<span id="currentYear"></span> <a href="#">
+                            Compose Tech</a> All Rights Reserved
                         </p>
                     </div>
                 </div>

@@ -20,6 +20,31 @@
     }
 }
 
+.logo-wrapper-f {
+    background-color: white;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    gap: 4px;
+
+    p {
+        color: black !important;
+        font-weight: 700;
+        // line-height: 2.833;
+        margin-bottom: 0 !important;
+        font-size: 30px !important;
+        transition: all 0.3s;
+
+        @include max-screen(992, 1199) {
+            font-size: 25px !important;
+        }
+
+        @include max-screen(991) {
+            font-size: 20px !important;
+        }
+    }
+}
+
 .news-letter-form {
     @include max-screen(767) {
         text-align: center;
