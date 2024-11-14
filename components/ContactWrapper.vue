@@ -1,6 +1,17 @@
 <template>
-    <section class="contact-section-page section-ptb-150">
+    <section class="contact-section-page section-ptb-150" id="contact">
         <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="section-title primary text-center pb-60">
+                        <div class="icon">
+                            <img src="/images/icon/testimonial.png" alt="Icon_not_found" />
+                        </div>
+                        <h3 class="title">Contact us</h3>
+                        <span class="hr-secondary"></span>
+                    </div>
+                </div>
+            </div>
             <div class="contact-form-card">
                 <div class="row mtn-35">
                     <div class="col-lg-6 mt-35">

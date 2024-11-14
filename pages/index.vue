@@ -4,14 +4,10 @@
         <OffCanvasMobileMenu />
         <Hero />
         <BrandLogoCarousel />
-        <ServiceOne />
+        <ServiceOne /> 
         <WorkingProcess />
         <AboutOne />
-        <CaseStudies />
-        <TeamSection />
-        <FaqSection />
-        <TestimonialOne />
-        <BlogOne />
+        <ContactWrapper />
         <Footer />
     </div>
 </template>
@@ -31,6 +27,7 @@
             FaqSection: () => import('@/components/FaqSection'),
             TestimonialOne: () => import('@/components/TestimonialOne'),
             BlogOne: () => import('@/components/BlogOne'),
+            ContactWrapper: () => import('@/components/ContactWrapper'),
             Footer: () => import('@/components/Footer')
         }
     }

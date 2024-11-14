@@ -43,8 +43,8 @@
                             <nav class="d-none d-lg-block">
                                 <Navigation />
                             </nav>
-                            <nuxt-link to="/contact" class="btn btn-warning btn-hover-warning btn-lg d-none d-md-block">
-                                Analyze Your Site <i class="icofont-arrow-right"></i>
+                            <nuxt-link to="#contact" class="btn btn-warning btn-hover-warning btn-lg d-none d-md-block">
+                                Contact Now <i class="icofont-arrow-right"></i>
                             </nuxt-link>
                             <button class="btn btn-warning offcanvas-toggler d-lg-none" @click="mobiletoggleClass('addClass', 'show-mobile-menu')">
                                 <span class="line"></span>

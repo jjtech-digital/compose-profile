@@ -1,5 +1,5 @@
 <template>
-    <section class="hero-section">
+    <section class="hero-section" id="home">
         <img class="shape shape1" src="/images/hero/shape1.png" alt="404" />
         <img class="shape shape2" src="/images/hero/shape2.png" alt="404" />
         <img class="shape particle1" src="/images/hero/particle1.png" alt="404" />
@@ -8,12 +8,11 @@
             <div class="row">
                 <div class="col-lg-5 col-xl-6 position-static">
                     <div class="hero-content">
-                        <h2 class="title">Top Ranking Your Brand New Website.</h2>
-                        <p><span class="hr d-none d-xl-block"></span> Top rankings is important for online business.</p>
-                        <form class="hero-form position-relative">
-                            <input class="form-control" type="text" placeholder="https://yourwebsite.com" />
-                            <button class="btn btn-warning">Free Audit Now</button>
-                        </form>
+                        <h2 class="title">Transforming Challenges into Enterprise-Grade Solution.</h2>
+                        <p><span class="hr d-none d-xl-block"></span> Partner with us for customized, robust, and scalable applications that align with your business goals.</p>
+                        <div class="hero-form position-relative">
+                            <button class="btn btn-warning">Contact Now</button>
+                        </div>
                         <img class="particle3" src="/images/hero/particle3.png" alt="particle2" />
                     </div>
                 </div>

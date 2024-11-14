@@ -1,5 +1,5 @@
 <template>
-    <section class="working-process-section">
+    <section class="working-process-section" id="working-process">
         <div class="container">
             <div class="row">
                 <div class="col-12" data-aos="fade-up" data-aos-delay="300">
@@ -17,27 +17,27 @@
                 <div class="col-lg-3 col-sm-6 working-process-list mb-4" data-aos="fade-up" data-aos-delay="400">
                     <img class="arrow-shape" src="/images/working/arrow-shape1.png" alt="images_not_found" />
                     <div class="icon">
-                        <img src="/images/working/1.png" alt="images_not_found" />
+                        <img src="/images/working/2.png" alt="images_not_found" />
                     </div>
-                    <h4 class="title">Idea Generation</h4>
+                    <h4 class="title">Planning</h4>
                 </div>
                 <!-- working-process-list end -->
                 <!-- working-process-list start -->
                 <div class="col-lg-3 col-sm-6 working-process-list mb-4" data-aos="fade-up" data-aos-delay="500">
                     <img class="arrow-shape" src="/images/working/arrow-shape2.png" alt="images_not_found" />
                     <div class="icon">
-                        <img src="/images/working/2.png" alt="images_not_found" />
+                        <img src="/images/working/3.png" alt="images_not_found" />
                     </div>
-                    <h4 class="title">Working Plan</h4>
+                    <h4 class="title">Research</h4>
                 </div>
                 <!-- working-process-list end -->
                 <!-- working-process-list start -->
                 <div class="col-lg-3 col-sm-6 working-process-list mb-4" data-aos="fade-up" data-aos-delay="600">
                     <img class="arrow-shape" src="/images/working/arrow-shape1.png" alt="images_not_found" />
                     <div class="icon">
-                        <img src="/images/working/3.png" alt="images_not_found" />
+                        <img src="/images/working/1.png" alt="images_not_found" />
                     </div>
-                    <h4 class="title">SEO Research</h4>
+                    <h4 class="title">Development</h4>
                 </div>
                 <!-- working-process-list end -->
                 <!-- working-process-list start -->

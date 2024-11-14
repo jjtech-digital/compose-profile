@@ -1,5 +1,6 @@
 .brand-section {
     padding-top: 260px;
+    
     @include max-screen(1200, 1499) {
         padding-top: 150px;
     }
@@ -33,6 +34,7 @@
         margin-bottom: 30px;
         color: $white;
         font-size: 22px;
+        
         @include max-screen(767) {
             line-height: 2;
             font-size: 20px;
@@ -52,31 +54,15 @@
 
     .brand-item {
         text-align: center;
-    }
 
-    .brand-before {
-        display: block;
-        margin: auto;
-        transition: all 0.4s;
-    }
-    .brand-after {
-        top: 150%;
-        position: absolute;
-        display: block;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        transition: all 0.4s;
-    }
-    .swiper-slide {
-        &:hover {
-            .brand-before {
-                transform: translateY(-100%);
-            }
-
-            .brand-after {
-                top: 0%;
-            }
+        img {
+            display: block;
+            margin: auto;
+            transition: all 0.4s;
         }
+    }
+
+    .swiper-slide {
+        // No hover effect needed, so the previous hover styling can be removed
     }
 }
