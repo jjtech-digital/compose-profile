@@ -1,5 +1,6 @@
 <template>
     <header class="header header-area">
+        
         <div class="header-top">
             <div class="container">
                 <div class="row align-items-center">
