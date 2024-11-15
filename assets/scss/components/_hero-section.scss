@@ -216,6 +216,7 @@
     bottom: -125px;
     left: 200px;
     z-index: -1;
+    height: 300px;
     animation: move 0.9s infinite alternate;
     @include max-screen(1200, 1500) {
         bottom: -180px;

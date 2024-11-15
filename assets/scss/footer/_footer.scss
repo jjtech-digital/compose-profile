@@ -175,7 +175,7 @@
 .footer-top {
     padding: 100px 0px;
     @include max-screen(1199) {
-        background: #0a196f;
+        background: black;
     }
     .container {
         position: relative;
@@ -183,7 +183,7 @@
     }
 }
 .footer-card {
-    background: #02126a;
+    background: #222222;
     border-radius: 15px;
 }
 
@@ -290,7 +290,7 @@
     }
 }
 .footer-social-link {
-    border: 1px solid #273581;
+    border: 1px solid #666666;
     width: 50px;
     height: 50px;
     display: flex;
@@ -307,7 +307,7 @@
 
 .copy-right-section {
     padding: 20px 0px;
-    background: #111f73;
+    background: #222222;
     P {
         text-align: center;
         color: #c7cbdf;
