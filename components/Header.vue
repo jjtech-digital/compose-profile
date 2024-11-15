@@ -1,6 +1,5 @@
 <template>
     <header class="header header-area">
-        
         <div class="header-top">
             <div class="container">
                 <div class="row align-items-center">
@@ -39,6 +38,7 @@
                             <div class="logo-wrapper">
                                 <img src="/images/logo/ct_logom.png" alt="brand logo" height="44" />
                                 <p>Compose Tech</p>
+                                
                             </div>
                         </nuxt-link>
                     </div>
