@@ -11,7 +11,7 @@
                 <div class="col-lg-6">
                     <div class="offset-about">
                         <div class="about-content section-title primary">
-                            <h5 class="sub-title">// Why Choose Us?</h5>
+                            <h5 class="sub-title">Why Choose Us?</h5>
                             <h3 class="title">We Are a Trusted Consultancy Partner</h3>
                             <p>With a proven track record in web, backend, e-commerce, and AI solutions, we deliver tailored, results-oriented services. Our commitment to quality and innovation ensures that your business is equipped to thrive in a competitive digital environment.</p>
                             <span class="hr-primary mt-4"></span>
@@ -54,7 +54,11 @@
         </div>
     </section>
 </template>
-
+<style>
+.about-content,.about-object-content p {
+    padding-right: 25px;
+}
+</style>
 <script>
     export default {
 

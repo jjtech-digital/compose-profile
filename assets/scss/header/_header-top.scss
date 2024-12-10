@@ -23,13 +23,13 @@
 
 .header-social-links {
     .social-link-item {
-        border-right: 1px solid $border-color;
+        // border-right: 1px solid $border-color;
         &:first-child {
-            border-left: 1px solid $border-color;
+            // border-left: 1px solid $border-color;
         }
         .social-link {
             display: block;
-            padding: 22px 20px;
+            padding: 10px 10px;
             line-height: 1;
             &:hover {
                 background: linear-gradient(to right, #fc7318 0%, #feb423 100%);
@@ -52,7 +52,7 @@
         line-height: 1;
         &:first-child {
             padding: 22px 20px;
-            border-left: 1px solid $border-color;
+            // border-left: 1px solid $border-color;
         }
 
         a {
@@ -67,13 +67,13 @@
     .form-select {
         color: $white;
         border: 0px;
-        border-left: 1px solid $border-color;
-        border-right: 1px solid $border-color;
+        // border-left: 1px solid $border-color;
+        // border-right: 1px solid $border-color;
         background: transparent;
         border-radius: 0px;
         cursor: pointer;
         appearance: none;
-        padding: 22px 20px;
+        padding: 10px 10px;
         position: relative;
         &:after {
             content: ">";
