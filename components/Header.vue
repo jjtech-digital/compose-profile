@@ -12,8 +12,11 @@
                         </ul>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 d-none d-md-block">
-                        <p class="d-flex flex-wrap align-items-center text-gradient"><span class="hr-border d-none d-xl-block"></span>Lets grow your business.</p>
+                        <p class="d-flex flex-wrap align-items-center text-gradient">
+                            <span class="hr-border d-none d-xl-block"></span>
+                            Lets grow your business.</p>
                     </div>
+                    
                     <div class="col-12 col-md-6 col-lg-4">
                         <ul class="select-box d-flex flex-wrap align-items-center justify-content-center justify-content-md-end">
                             <li class="select-item">
