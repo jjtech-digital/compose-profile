@@ -37,7 +37,7 @@
                             </div>
                             <div class="content">
                                 <span class="text">Email:</span>
-                                <a href="mailto:demo@gmail.com" class="number">demo@gmail.com</a>
+                                <a href="mailto:admin@compose.co.in" class="number">admin@compose.co.in</a>
                             </div>
                         </div>
                         <!-- contact media end -->
@@ -48,7 +48,7 @@
                             </div>
                             <div class="content">
                                 <span class="text">Address:</span>
-                                <h3 class="number">Chilton, Texas(TX, 766)</h3>
+                                <h3 class="number">H.no. 135, Street No:641, Ongole, Andhra Pradesh, 523001</h3>
                             </div>
                         </div>
                         <!-- contact media end -->
