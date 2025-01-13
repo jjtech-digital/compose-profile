@@ -61,21 +61,15 @@
                                         <ul class="address">
                                             <li>
                                                 <span class="icon">
-                                                    <i class="icofont-ui-call"></i>
-                                                </span>
-                                                <a href="tel:0123456789">00123456789</a>
-                                            </li>
-                                            <li>
-                                                <span class="icon">
                                                     <i class="icofont-send-mail"></i>
                                                 </span>
-                                                <a href="mailto:demo@gmail.com">demo@gmail.com</a>
+                                                <a href="mailto:admin@compose.co.in">admin@compose.co.in</a>
                                             </li>
                                             <li>
                                                 <span class="icon">
-                                                    <i class="icofont-google-map"></i>
-                                                </span>
-                                                Chilton, Texas(TX), 12345
+                                                    <i class="icofont-google-map">
+                                                    </i>
+                                                </span>H.no. 135, Street No:641, Ongole, Andhra Pradesh, 52300001
                                             </li>
                                         </ul>
                                     </div>
