@@ -151,9 +151,9 @@
                                 <div class="footer-col">
                                     <div class="footer-widget">
                                         <h4 class="title">Follow Us</h4>
-                                        <p>Lorem ipsum is simply dummy text the printing and typesetting.</p>
+                                        <p>Follow us on our social media channels to stay updated on our latest services, industry insights, and company news!</p>
                                         <ul class="footer-social">
-                                            <li class="footer-social-item">
+                                            <!-- <li class="footer-social-item">
                                                 <a class="footer-social-link" href="#">
                                                     <i class="icofont-facebook"></i>
                                                 </a>
@@ -162,10 +162,10 @@
                                                 <a class="footer-social-link" href="#">
                                                     <i class="icofont-twitter"></i>
                                                 </a>
-                                            </li>
+                                            </li> -->
                                             <li class="footer-social-item">
-                                                <a class="footer-social-link" href="#">
-                                                    <i class="icofont-skype"></i>
+                                                <a class="footer-social-link" href="https://www.linkedin.com/in/compose-tech-services-opc-pvt-ltd/">
+                                                    <i class="icofont-linkedin"></i>
                                                 </a>
                                             </li>
                                         </ul>

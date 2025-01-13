@@ -5,7 +5,7 @@
                 <div class="row align-items-center">
                     <div class="col col-lg-4 d-none d-lg-block">
                         <ul class="header-social-links d-flex flex-wrap align-items-center">
-                            <li class="social-link-item"><a href="#" class="social-link"><i class="icofont-linkedin"></i></a></li>
+                            <li class="social-link-item"><a href="https://www.linkedin.com/in/compose-tech-services-opc-pvt-ltd/" class="social-link"><i class="icofont-linkedin"></i></a></li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 d-none d-md-block">
