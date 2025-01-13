@@ -5,9 +5,6 @@
                 <div class="row align-items-center">
                     <div class="col col-lg-4 d-none d-lg-block">
                         <ul class="header-social-links d-flex flex-wrap align-items-center">
-                            <li class="social-link-item"><a href="#" class="social-link"><i class="icofont-facebook"></i></a></li>
-                            <li class="social-link-item"><a href="#" class="social-link"><i class="icofont-twitter"></i></a></li>
-                            <li class="social-link-item"><a href="#" class="social-link"><i class="icofont-skype"></i></a></li>
                             <li class="social-link-item"><a href="#" class="social-link"><i class="icofont-linkedin"></i></a></li>
                         </ul>
                     </div>
@@ -19,9 +16,6 @@
                     
                     <div class="col-12 col-md-6 col-lg-4">
                         <ul class="select-box d-flex flex-wrap align-items-center justify-content-center justify-content-md-end">
-                            <li class="select-item">
-                                Cell: <a href="tel:0123456789">0123456789</a>
-                            </li>
                             <li class="select-item">
                                 <select class="form-select">
                                     <option value="1">English</option>
