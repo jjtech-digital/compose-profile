@@ -37,11 +37,32 @@
     }
 }
 
+.brand-before img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+
+
+.swiper-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1px;
+}
+
+.swiper{
+    position: relative;
+    z-index:5
+}
 .brand-card {
     background-color: $primary;
-    background-image: url("/images/brand-logo/bg.png");
-    padding: 65px 115px 90px;
+    background-image: url("/images/brand-logo/brand-background.png");
+    padding: 20px 30px 50px;
     border-radius: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
     @include max-screen(1499) {
         padding: 65px 0px 90px;
@@ -54,8 +75,10 @@
         font-weight: 700;
         line-height: 1.7;
         margin-bottom: 30px;
-        color: $white;
+        color: black;
         font-size: 22px;
+        text-align: center;
+
         
         @include max-screen(767) {
             line-height: 2;
@@ -76,15 +99,18 @@
 
     .brand-item {
         text-align: center;
-
+     
         img {
             display: block;
             margin: auto;
             transition: all 0.4s;
+
         }
     }
 
     .swiper-slide {
-        // No hover effect needed, so the previous hover styling can be removed
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
 }

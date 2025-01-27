@@ -10,6 +10,13 @@ export default defineNuxtConfig({
             },
         },
     },
+    runtimeConfig: {
+        public: {
+            NUXT_EMAILJS_SERVICE_ID: process.env.NUXT_EMAILJS_SERVICE_ID,
+            NUXT_EMAILJS_TEMPLATE_ID:process.env.NUXT_EMAILJS_TEMPLATE_ID,
+            NUXT_EMAILJS_USER_ID:process.env.NUXT_EMAILJS_USER_ID,
+        }
+    },
     nitro: {
         devServer: {
           watch: ['./src']
