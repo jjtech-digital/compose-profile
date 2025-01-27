@@ -19,16 +19,7 @@
                             <h3 class="title">Get In Touch.</h3>
                             <span class="comment-hr mb-0"></span>
                         </div>
-                        <!-- contact media -->
-                        <div class="contact-media contact-media-list mt-xl-8">
-                            <div class="icon">
-                                <span class="icofont-ui-call"></span>
-                            </div>
-                            <div class="content">
-                                <span class="text">Phone:</span>
-                                <a href="tel:0123456789" class="number">(+00) 123 456 789</a>
-                            </div>
-                        </div>
+                        <!-- contact media -->                       
                         <!-- contact media end -->
                         <!-- contact media -->
                         <div class="contact-media contact-media-list">
@@ -38,6 +29,16 @@
                             <div class="content">
                                 <span class="text">Email:</span>
                                 <a href="mailto:admin@compose.co.in" class="number">admin@compose.co.in</a>
+                            </div>
+                        </div>
+
+                         <div class="contact-media contact-media-list mt-xl-8">
+                            <div class="icon">
+                                <span class="icofont-linkedin"></span>
+                            </div>
+                            <div class="content">
+                                <span class="text">Linkedin:</span>
+                                <a href="https://www.linkedin.com/in/compose-tech-services-opc-pvt-ltd/" class="number">Compose Tech</a>
                             </div>
                         </div>
                         <!-- contact media end -->
@@ -60,18 +61,21 @@
                         </div>
 
                         <div class="comment-form pt-xl-8">
-                            <form class="row gx-4">
+                             
+                              <form class="row gx-4" ref="form" @submit.prevent="sendEmail">   
+
+                            
                                 <div class="col-12 col-sm-6">
-                                    <input class="form-control" placeholder="Enter Your Name" type="text" name="name" />
+                                    <input v-model="formData.name" class="form-control" placeholder="Enter Your Name" type="text"  />
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input class="form-control" placeholder="Enter Your Email" type="text" name="email" />
+                                    <input  v-model="formData.email"  class="form-control" placeholder="Enter Your Email" type="text" />
                                 </div>
                                 <div class="col-12">
-                                    <input class="form-control" placeholder="Enter Your Subject" type="text" name="subject" />
+                                    <input v-model="formData.subject" class="form-control" placeholder="Enter Your Subject" type="text"  />
                                 </div>
                                 <div class="col-12">
-                                    <textarea placeholder="Type your question" class="form-control textarea-control" name="message" cols="30" rows="10"></textarea>
+                                    <textarea  v-model="formData.message" placeholder="Type your question" class="form-control textarea-control"  cols="30" rows="10"></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button type="submit" class="btn btn-warning">
@@ -83,10 +87,51 @@
                         </div>
                     </div>
                     <div class="col-12 mt-35">
-                        <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65368563.61295087!2d-117.82461439612302!3d-0.2494932804537185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x65a81cae36eb8ff%3A0xa6342257f310534f!2sAtlantic%20Ocean!5e0!3m2!1sen!2sbd!4v1614241876365!5m2!1sen!2sbd"></iframe>
+                        <iframe 
+                        class="google-map"  
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57067174.13924448!2d41.842609402440026!3d15.500208774520445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b011c10366c03%3A0x6ee40296fd2dbcc5!2sOngole%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1736837991039!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </template>
+
+<script setup>
+import emailjs from "@emailjs/browser";
+import { useRuntimeConfig } from '#app';
+
+const config = useRuntimeConfig();
+const formData = ref({
+  name: "",
+  email: "",
+  message: "",
+  subject: ""
+});
+
+const sendEmail = async () => {
+  try {
+    const result = await emailjs.send(
+      config.public.NUXT_EMAILJS_SERVICE_ID,
+      config.public.NUXT_EMAILJS_TEMPLATE_ID,
+      {
+        user_name: formData.value.name,
+        user_email: formData.value.email,
+        message: formData.value.message,
+        subject: formData.value.subject
+      },
+      config.public.NUXT_EMAILJS_USER_ID
+    );
+
+    if (result.text === "OK") {
+      alert("Message sent successfully!");
+      formData.value = { name: "", email: "", message: "", subject: "" };
+    } else {
+      alert("Failed to send email. Please try again.");
+    }
+  } catch (error) {
+    console.error("Error sending email:", error);
+    alert("An error occurred. Please try again later.");
+  }
+};
+</script>
