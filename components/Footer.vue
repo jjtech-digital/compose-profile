@@ -61,21 +61,15 @@
                                         <ul class="address">
                                             <li>
                                                 <span class="icon">
-                                                    <i class="icofont-ui-call"></i>
-                                                </span>
-                                                <a href="tel:0123456789">00123456789</a>
-                                            </li>
-                                            <li>
-                                                <span class="icon">
                                                     <i class="icofont-send-mail"></i>
                                                 </span>
-                                                <a href="mailto:demo@gmail.com">demo@gmail.com</a>
+                                                <a href="mailto:admin@compose.co.in">admin@compose.co.in</a>
                                             </li>
                                             <li>
                                                 <span class="icon">
-                                                    <i class="icofont-google-map"></i>
-                                                </span>
-                                                Chilton, Texas(TX), 12345
+                                                    <i class="icofont-google-map">
+                                                    </i>
+                                                </span>H.no. 135, Street No:641, Ongole, Andhra Pradesh, 52300001
                                             </li>
                                         </ul>
                                     </div>
@@ -157,9 +151,9 @@
                                 <div class="footer-col">
                                     <div class="footer-widget">
                                         <h4 class="title">Follow Us</h4>
-                                        <p>Lorem ipsum is simply dummy text the printing and typesetting.</p>
+                                        <p>Follow us on our social media channels to stay updated on our latest services, industry insights, and company news!</p>
                                         <ul class="footer-social">
-                                            <li class="footer-social-item">
+                                            <!-- <li class="footer-social-item">
                                                 <a class="footer-social-link" href="#">
                                                     <i class="icofont-facebook"></i>
                                                 </a>
@@ -168,10 +162,10 @@
                                                 <a class="footer-social-link" href="#">
                                                     <i class="icofont-twitter"></i>
                                                 </a>
-                                            </li>
+                                            </li> -->
                                             <li class="footer-social-item">
-                                                <a class="footer-social-link" href="#">
-                                                    <i class="icofont-skype"></i>
+                                                <a class="footer-social-link" href="https://www.linkedin.com/in/compose-tech-services-opc-pvt-ltd/">
+                                                    <i class="icofont-linkedin"></i>
                                                 </a>
                                             </li>
                                         </ul>
