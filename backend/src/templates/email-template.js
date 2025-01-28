@@ -100,7 +100,7 @@ const emailTemplate = (name, email, message, subject) => {
       <body>
           <div class="email-container">
               <div class="email-header">
-                  <h3>🔔 New Inquiry: ${subject}</h3>
+                  <h3>💬 New Inquiry: ${subject}</h3>
               </div>
               <div class="email-body">
                   <p><strong>Hello Admin,</strong></p>
