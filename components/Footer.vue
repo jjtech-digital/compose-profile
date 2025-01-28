@@ -135,8 +135,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <p>&copy;<span id="currentYear"></span> <a href="#">
-                            Compose Tech</a> All Rights Reserved
+                        <p>&copy; 2025<span id="currentYear"></span> <a href="#">
+                            Compose Tech.</a> All Rights Reserved.
                         </p>
                     </div>
                 </div>
