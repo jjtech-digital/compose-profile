@@ -17,7 +17,7 @@ const sendEmail = async (req, res) => {
     const template = emailTemplate(name, email, message, subject);
 
     const mailOptions = {
-      from: email,
+      from: process.env.EMAIL_USER,
       to: process.env.EMAIL_USER,
       subject: `New Message from ${name}`,
       html: template.html,
