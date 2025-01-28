@@ -2,7 +2,7 @@
     <div class="brand-section" data-aos="fade-up" data-aos-delay="100">
         <div class="container">
             <div class="brand-card bg-cover">
-                <p class="text-center">Working with innovators worldwide. </p>
+                <p class="brand-title">Working with innovators worldwide</p>
                 <swiper :speed="1000" :breakpoints="brandCarousel.breakpoints">
                     <swiper-slide class="brand-item" v-for="(brand, index) in brandItems" :key="index">
                         <a :href="brand.url">
