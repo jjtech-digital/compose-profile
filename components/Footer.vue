@@ -61,21 +61,15 @@
                                         <ul class="address">
                                             <li>
                                                 <span class="icon">
-                                                    <i class="icofont-ui-call"></i>
-                                                </span>
-                                                <a href="tel:0123456789">00123456789</a>
-                                            </li>
-                                            <li>
-                                                <span class="icon">
                                                     <i class="icofont-send-mail"></i>
                                                 </span>
-                                                <a href="mailto:demo@gmail.com">demo@gmail.com</a>
+                                                <a href="mailto:admin@compose.co.in">admin@compose.co.in</a>
                                             </li>
                                             <li>
                                                 <span class="icon">
-                                                    <i class="icofont-google-map"></i>
-                                                </span>
-                                                Chilton, Texas(TX), 12345
+                                                    <i class="icofont-google-map">
+                                                    </i>
+                                                </span>H.no. 135, Street No:641, Ongole, Andhra Pradesh, 52300001
                                             </li>
                                         </ul>
                                     </div>
@@ -87,68 +81,31 @@
                                             <li>
                                                 <a class="footer-link" href="#">
                                                     <i class="icofont-rounded-double-right"></i>
-                                                    Social Marketing
+                                                    Home
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="footer-link" href="#">
+                                                <a class="footer-link" href="#about">
                                                     <i class="icofont-rounded-double-right"></i>
-                                                    SEO Optimization
+                                                    About
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="footer-link" href="#">
+                                                <a class="footer-link" href="#services">
                                                     <i class="icofont-rounded-double-right"></i>
-                                                    Content Marketing
+                                                    Services
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="footer-link" href="#">
+                                                <a class="footer-link" href="#working-process">
                                                     <i class="icofont-rounded-double-right"></i>
-                                                    Social Marketing
+                                                   Working Process
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="footer-link" href="#">
+                                                <a class="footer-link" href="#contact">
                                                     <i class="icofont-rounded-double-right"></i>
-                                                    Web Analytics
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-col">
-                                    <div class="footer-widget">
-                                        <h4 class="title">Information</h4>
-                                        <ul class="footer-menu">
-                                            <li>
-                                                <a class="footer-link" href="#">
-                                                    <i class="icofont-rounded-double-right"></i>
-                                                    Vision & Values
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="footer-link" href="#">
-                                                    <i class="icofont-rounded-double-right"></i>
-                                                    Winning Awards
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="footer-link" href="#">
-                                                    <i class="icofont-rounded-double-right"></i>
-                                                    Leadership
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="footer-link" href="#">
-                                                    <i class="icofont-rounded-double-right"></i>
-                                                    Sustainability
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="footer-link" href="#">
-                                                    <i class="icofont-rounded-double-right"></i>
-                                                    Careers
+                                                    Contact Us
                                                 </a>
                                             </li>
                                         </ul>
@@ -157,21 +114,11 @@
                                 <div class="footer-col">
                                     <div class="footer-widget">
                                         <h4 class="title">Follow Us</h4>
-                                        <p>Lorem ipsum is simply dummy text the printing and typesetting.</p>
+                                        <p>Follow us on our social media channels to stay updated on our latest services, industry insights, and company news!</p>
                                         <ul class="footer-social">
                                             <li class="footer-social-item">
-                                                <a class="footer-social-link" href="#">
-                                                    <i class="icofont-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li class="footer-social-item">
-                                                <a class="footer-social-link" href="#">
-                                                    <i class="icofont-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="footer-social-item">
-                                                <a class="footer-social-link" href="#">
-                                                    <i class="icofont-skype"></i>
+                                                <a class="footer-social-link" href="https://www.linkedin.com/in/compose-tech-services-opc-pvt-ltd/">
+                                                    <i class="icofont-linkedin"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -198,3 +145,19 @@
         <!-- coppy right end -->
     </footer>
 </template>
+
+<!-- 
+
+     <li>
+            <nuxt-link to="#home">Home</nuxt-link>
+        </li>
+        <li>
+            <nuxt-link to="#services">Services</nuxt-link>
+        </li>
+        <li>
+            <nuxt-link to="#working-process">Working Process</nuxt-link>
+        </li>
+        <li>
+            <nuxt-link to="#about">About</nuxt-link>
+        </li>
+    </ul> -->

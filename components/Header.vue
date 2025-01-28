@@ -1,38 +1,5 @@
 <template>
     <header class="header header-area">
-        <div class="header-top">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col col-lg-4 d-none d-lg-block">
-                        <ul class="header-social-links d-flex flex-wrap align-items-center">
-                            <li class="social-link-item"><a href="#" class="social-link"><i class="icofont-facebook"></i></a></li>
-                            <li class="social-link-item"><a href="#" class="social-link"><i class="icofont-twitter"></i></a></li>
-                            <li class="social-link-item"><a href="#" class="social-link"><i class="icofont-skype"></i></a></li>
-                            <li class="social-link-item"><a href="#" class="social-link"><i class="icofont-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 d-none d-md-block">
-                        <p class="d-flex flex-wrap align-items-center text-gradient">
-                            <span class="hr-border d-none d-xl-block"></span>
-                            Lets grow your business.</p>
-                    </div>
-                    
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <ul class="select-box d-flex flex-wrap align-items-center justify-content-center justify-content-md-end">
-                            <li class="select-item">
-                                Cell: <a href="tel:0123456789">0123456789</a>
-                            </li>
-                            <li class="select-item">
-                                <select class="form-select">
-                                    <option value="1">English</option>
-                                    <option value="3">Français</option>
-                                </select>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="header-bottom" :class="{'is-sticky': isSticky}">
             <div class="container">
                 <div class="row align-items-center">

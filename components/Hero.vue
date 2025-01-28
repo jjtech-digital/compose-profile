@@ -11,7 +11,11 @@
                         <h2 class="title">Transforming Challenges into Enterprise-Grade Solution.</h2>
                         <p><span class="hr d-none d-xl-block"></span> Partner with us for customized, robust, and scalable applications that align with your business goals.</p>
                         <div class="hero-form position-relative">
-                            <button class="btn btn-warning">Contact Now</button>
+                            <nuxt-link to="#contact" >
+                                <button class="btn btn-warning">
+                                    Contact Now
+                                </button>
+                            </nuxt-link>
                         </div>
                         <img class="particle3" src="/images/hero/particle3.png" alt="particle2" />
                     </div>
