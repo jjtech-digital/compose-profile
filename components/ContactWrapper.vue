@@ -107,7 +107,7 @@ const formData = ref({
 
 const submitForm = async () => {
   try {
-    const response = await axios.post("https://compose-profile-nine.vercel.app/api/send-email", formData.value);
+    const response = await axios.post("https://compose-profile-be.vercel.app/api/send-email", formData.value);
 console.log("Responsee",response,formData)
     if (response.status === 200) {
       alert("Email sent successfully!");
