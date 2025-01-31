@@ -54,7 +54,7 @@
                                     <div class="footer-widget">
                                         <nuxt-link to="/" class="footer-logo">
                                             <div class="logo-wrapper-f">
-                                                <img src="/images/logo/ct_logom.png" height="44" alt="Brand Logo" />
+                                                <img src="/images/logo/ct_new_logo.png" height="44" alt="Brand Logo" />
                                                 <p>Compose Tech</p>
                                             </div>
                                         </nuxt-link>
